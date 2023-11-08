@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Lesson 3</title>
+    <script src="homework.js"></script>
+  </head>
+  <body>
+    <h1>Birthday Party Atendee List</h1>
+    <form name="birthdayform" onsubmit="addAttendee() ; return false">
+      Please enter your first name: <input type="text" name="first" />
+      <br />
+      Please enter your last name: <input type="text" name="last" />
+      <br />
+      <button type="submit">Save Atendee</button>
+    </form>
+    <h2>People Attending</h2>
+    <ul id="attendees"></ul>
+  </body>
+</html>
